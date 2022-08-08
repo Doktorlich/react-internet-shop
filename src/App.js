@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.css";
 import Body from "./components/BodyPages/Body.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Header from "./components/Header/Header.jsx";

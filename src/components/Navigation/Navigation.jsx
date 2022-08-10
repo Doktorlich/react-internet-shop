@@ -3,7 +3,7 @@ import React from "react";
 import "./Navigation.scss";
 
 const Navigation = () => {
-    return <div>Navigation</div>;
+    return <nav className="navigation">Navigation</nav>;
 };
 
 export default Navigation;

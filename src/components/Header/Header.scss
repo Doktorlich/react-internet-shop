@@ -1,0 +1,33 @@
+.header {
+    border: 1px #079e1b solid;
+    height: 178px;
+    
+    &__info-group {
+        display: flex;
+        gap: 5px;
+        &__contact-info {
+            
+            
+            li {
+                display: inline;
+                margin-right: 5px;
+            }
+            border: 1px red solid;
+        }
+        &__nav {
+            display: inline;
+
+            li {
+                display: inline;
+                margin-right: 5px;
+            }
+            border: 1px red solid;
+        }
+    }
+}
+
+// @media screen and (max-width:650px){
+//     .header__info-group{
+// flex-direction: column;
+//     }
+// }

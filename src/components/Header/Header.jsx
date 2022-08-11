@@ -15,7 +15,20 @@ const Header = () => {
                     <li>Careers</li>
                 </ul>
             </section>
-            <section>Header</section>
+            <hr />
+            <section className="header__basement">
+                <div className="header__logo">
+                    <h2>Freshnececom</h2>
+                </div>
+                <div className="header__form">
+                    <div className="header__form__filter"></div>
+                    <div className="header__form__search"></div>
+                    <div className="header__form_icon-search"></div>
+                </div>
+                <div className="header__icons">
+                    
+                </div>
+            </section>
         </header>
     );
 };

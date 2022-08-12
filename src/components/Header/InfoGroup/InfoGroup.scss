@@ -1,0 +1,30 @@
+.header {
+    &__info-group {
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        font-family: "Open Sans";
+        li:first-child {
+            color: rgba(106, 152, 60, 1);
+        }
+    }
+    &__link {
+        text-decoration: none;
+        &:hover {
+            color: red;
+        }
+    }
+
+    &__contact-info {
+        li {
+            display: inline;
+            margin-right: 5px;
+        }
+    }
+    &__nav {
+        li {
+            display: inline;
+            margin-right: 5px;
+        }
+    }
+}

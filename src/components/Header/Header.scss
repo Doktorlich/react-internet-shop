@@ -1,28 +1,10 @@
 .header {
-    
     border: 1px #079e1b solid;
     height: 178px;
-    padding:0px 45px 0px 45px;
-    &__info-group {
-        display: flex;
-        justify-content: space-between;
-        gap: 5px;
-        font-family: 'Open Sans';
-
-        &__contact-info {
-            li {
-                display: inline;
-                margin-right: 5px;
-            }
-        }
-        &__nav {
-            li {
-                display: inline;
-                margin-right: 5px;
-            }
-        }
-    }
+    padding: 0px 45px 0px 45px;
+   
 }
+
 
 // @media screen and (max-width:650px){
 //     .header__info-group{

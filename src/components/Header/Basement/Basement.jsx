@@ -23,17 +23,29 @@ const Basement = () => {
                         </select>
                     </form>
                 </div>
-                <hr className="header__line"/>
+
+                <div className="header__line"></div>
                 <div className="header__search">
-                    <input type="search" name="productSearch" placeholder="Search product, categories ..." className="header__search-input"/>
+                    <input type="search" name="productSearch" placeholder="Search product, categories ..." className="header__search-input" />
                 </div>
-               
-                <input type="image" src="../../icons.svg" alt=" " name="inputSearch" className="header__icon-search" value/>
+                {/* <img src="../../../images/icons.svg" alt=""  className="header__icon-search"/> */}
+                <ul className="header__block-icon-search">
+                    <li className="header__icon-search"></li>
+                </ul>
             </div>
-            <div className="header__icons-user">
-                <img src="../../images/icons.svg" alt="Profile" className="header__icon-profile" />
-                <img src="../../images/icons.svg" alt="Shopping cart" className="header__icon-shopping-cart" />
-            </div>
+
+            <ul className="header__icons-user">
+                <li className="header__icon-profile"></li>
+                <li className="header__icon-shopping-cart">
+                    <li className="header__number-item-cart">
+                        <div className="header__circle"></div>
+                        <div className="header__number">4</div>
+                    </li>
+                </li>
+            </ul>
+
+            {/* <img alt="Profile" src="images/icons.svg" />
+                <img alt="Shopping cart" src="images/icons.svg" /> */}
         </section>
     );
 };

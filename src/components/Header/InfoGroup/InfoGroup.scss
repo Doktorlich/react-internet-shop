@@ -4,14 +4,13 @@
         justify-content: space-between;
         gap: 5px;
         font-family: "Open Sans";
-        li:first-child {
+        .header__contact:first-child {
             color: rgba(106, 152, 60, 1);
+            margin-left: 0px;
         }
-    }
-    &__link {
-        text-decoration: none;
-        &:hover {
-            color: red;
+
+        .header__contact {
+            margin-left: 33px;
         }
     }
 
@@ -21,10 +20,23 @@
             margin-right: 5px;
         }
     }
+    &__link {
+        text-decoration: none;
+       
+    }
     &__nav {
-        li {
+
+       
+        .header__nav-link{
             display: inline;
-            margin-right: 5px;
+            margin-right: 38px;
         }
+        .header__nav-link:last-child{
+            margin-right: 0px;
+        }
+    }
+    &__nav-link:hover {
+        border-bottom:1px rgb(180, 180, 180) solid ;
+        
     }
 }

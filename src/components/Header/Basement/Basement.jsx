@@ -36,6 +36,7 @@ const Basement = () => {
 
             <ul className="header__icons-user">
                 <li className="header__icon-profile"></li>
+                <div className="header__zero"></div>
                 <li className="header__icon-shopping-cart">
                     <li className="header__number-item-cart">
                         <div className="header__circle"></div>

@@ -63,7 +63,7 @@ $link-icons: url(images/icons.svg);
     }
     &__search-input {
         border: 0;
-        &:active,
+       
         &:focus {
             outline: none;
             border-bottom: 1px #d1d1d1 solid;
@@ -110,20 +110,25 @@ $link-icons: url(images/icons.svg);
         background-image: $link-icons;
         background-position: -900px -560px;
         margin-bottom: 20px;
+        
     }
+    // &__zero{
+    //     width: 45px;
+
+    // }
     &__icon-shopping-cart {
         width: 50px;
         height: 50px;
         zoom: 0.9;
         background-image: $link-icons;
         background-position: -640px -1087px;
+        margin-left: 45px;
     }
     &__number-item-cart {
         position: absolute;
         top: 120px;
         .header__circle {
             position: relative;
-          
             width: 16px;
             height: 16px;
             border-radius: 50%;
@@ -136,7 +141,6 @@ $link-icons: url(images/icons.svg);
             left: 3px;
             bottom: 20px;
             margin-bottom: 10px;
-            
         }
     }
 }

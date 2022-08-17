@@ -1,6 +1,59 @@
-.navigation{
+.navigation {
     box-sizing: border-box;
     border: 1px #079e20 solid;
     height: 55px;
-    padding:0px 45px 0px 45px;
+    padding: 0px 45px 0px 45px;
+
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    .select {
+        border: none;
+        margin-right: 40px;
+        text-overflow: ellipsis;
+        
+        &:focus,
+        &:active {
+            border: none;
+            outline: none;
+        }
+    }
+    .navigation__marker {
+        
+        width: 30px;
+        height: 20px;
+        zoom: 0.55;
+        background-color: rgb(247, 7, 7);
+        order: 5;
+        background-image: url(images/icons.svg);
+        background-position: -380px -1550px;
+        background-repeat: no-repeat;
+        
+    }
+    &__bakery {
+        width: 70px;
+    }
+    &__fruit-and-vegetables {
+        width: 150px;
+    }
+    &__meat-and-fish {
+        width: 117px;
+    }
+    &__drinks {
+        width: 70px;
+    }
+    &__kitchen {
+        width: 80px;
+    }
+    &__special-nutrition {
+        width: 130px;
+    }
+    &__baby {
+        width: 60px;
+    }
+    &__pharmacy {
+        width: 93px;
+    }
 }

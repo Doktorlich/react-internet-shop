@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 64px;
-    
+
     a:hover {
         border-bottom: 1px rgb(180, 180, 180) solid;
         li {
@@ -12,10 +12,13 @@
     &__connections,
     &__earnings,
     &__account {
-        li {
+        li{
             font-family: "Open Sans";
             margin-top: 16px;
+            
+           
         }
+       
         li:first-child {
             margin-top: 0px;
             font-family: Poppins;
@@ -24,6 +27,7 @@
             line-height: 27px;
             letter-spacing: 0em;
             text-align: left;
+           
         }
     }
 }

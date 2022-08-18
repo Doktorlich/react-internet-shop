@@ -6,10 +6,17 @@ body {
     margin-right: auto;
 }
 
+html{
+    background: #E5E5E5;;
+   
+}
+body,footer{
+    background-color: #ffffff;
+}
 .main {
     position: relative;
 }
-// 410px + 460px + 460px + 425.5px + 530px + 596px
+
 .footer {
     position: absolute;
 
@@ -17,7 +24,7 @@ body {
     height: 556px;
 
     box-sizing: border-box;
-    border: 1px red solid;
+    
     margin-left: auto;
     margin-right: auto;
 }
@@ -31,4 +38,18 @@ body {
 
 a {
     text-decoration: none;
+}
+a:visited,
+a:active {
+    color: rgba(106, 152, 60, 1);
+}
+a:hover {
+    border-bottom: 1px rgb(180, 180, 180) solid;
+    li {
+    }
+}
+
+button:hover, input[type="button"]{
+    
+    cursor: pointer;
 }

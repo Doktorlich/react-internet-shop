@@ -22,10 +22,12 @@
     }
     &__link {
         text-decoration: none;
-       
+        &:visited,&:active{
+            color:rgba(106, 152, 60, 1) ;
+           }
     }
     &__nav {
-
+       
        
         .header__nav-link{
             display: inline;

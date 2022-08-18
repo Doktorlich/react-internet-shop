@@ -2,7 +2,7 @@ import React from "react";
 import "./BestFromFarmers.scss";
 
 const BestFromFarmers = () => {
-    return <main className="main">Main</main>;
+    return <section className="from-farmers">Main</section>;
 };
 
 export default BestFromFarmers;

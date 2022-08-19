@@ -1,0 +1,68 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 419px;
+    height: 280px;
+    background: url("images/fon-banner.svg");
+    border-radius: 12px;
+    background-color: #f4f8ec;
+
+    &__header {
+        li {
+            margin-left: 32px;
+        }
+    }
+    &__li-1, &__li-2{
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+       
+        
+    }
+    &__li-1{
+        color: #6A983C; 
+        font-size: 14px;
+        line-height: 18px;
+    }
+    &__li-2 {
+        
+        font-size: 22px;
+        line-height: 33px;
+    }
+    &__button-icon {
+        position: relative;
+        margin-left: 32px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__button {
+        width: 163px;
+        height: 47px;
+        background-color: #ffffff00;
+        border: rgba(146, 192, 100, 1) solid;
+
+        border-radius: 12px;
+
+        //styleName: Button/Default;
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 23px;
+        letter-spacing: 0em;
+
+        &:hover {
+        }
+    }
+    &__icon {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 300px;
+        top: 30px;
+        background-image: url(images/icons.svg);
+        background-position: -620px -1528px;
+        zoom: 0.4;
+    }
+}

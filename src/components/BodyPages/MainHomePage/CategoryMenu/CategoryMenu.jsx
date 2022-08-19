@@ -8,8 +8,10 @@ const CategoryMenu = () => {
         <section className="category-menu">
             <div className="category-menu__menu-banner">
                 <Menu />
-                <Banner />
-                <Banner />
+                <div className="category-menu__banners">
+                    <Banner />
+                    <Banner />
+                </div>
             </div>
         </section>
     );

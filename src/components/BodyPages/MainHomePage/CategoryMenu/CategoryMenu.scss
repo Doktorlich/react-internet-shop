@@ -1,14 +1,17 @@
-
-
 .category-menu {
-    
-
     margin-top: 64px;
     margin-bottom: 64px;
-    
 }
-.category-menu__menu-banner{
-    
+.category-menu__menu-banner {
+    display: flex;
+
+    justify-content: space-between;
+    width: 1171px;
     height: 282px;
-    border: 1px rgb(255, 7, 234) solid;
+}
+.category-menu__banners {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    height: 280px;
 }

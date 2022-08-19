@@ -1,7 +1,8 @@
 .menu {
     display: flex;
     flex-direction: column;
-    height: 282px;
+    height: 280px;
+    width: 269px;
     justify-content: space-between;
 
     .menu__categories {
@@ -18,13 +19,12 @@
             line-height: 27px;
             margin-top: 0px;
         }
-        li{
-            
+        li {
         }
     }
     .menu__button-icon {
         position: relative;
-        &:hover{
+        &:hover {
             cursor: pointer;
         }
     }
@@ -33,15 +33,16 @@
         height: 48px;
 
         border: none;
-        
+
         border-radius: 12px;
         background: #f5f5f5;
-        line-height: 22px;
+        //styleName: Button/Default;
         font-family: "Poppins";
-        font-size: 15px;
-        font-weight: 1000;
+        font-size: 16px;
+        font-weight: bold;
         line-height: 23px;
         letter-spacing: 0em;
+        
 
         &:hover {
             background: #f1f1f1;
@@ -55,7 +56,6 @@
         top: 30px;
         background-image: url(images/icons.svg);
         background-position: -620px -1528px;
-        zoom:0.4;
-
+        zoom: 0.4;
     }
 }

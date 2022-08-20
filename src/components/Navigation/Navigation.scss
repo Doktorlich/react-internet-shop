@@ -1,6 +1,8 @@
 .navigation {
+    display: flex;
+    align-items: center;
     box-sizing: border-box;
-    
+    background: #F9F9F9;
     height: 55px;
 
     font-family: "Poppins";
@@ -12,7 +14,7 @@
         border: none;
         margin-right: 40px;
         // text-overflow: ellipsis;
-
+        background: #F9F9F9;
         &:focus,
         &:active {
             border: none;

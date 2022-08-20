@@ -1,16 +1,18 @@
-.category-menu {
+.best-selling-products {
     display: flex;
     align-items: center;
-    height: 410px;
+    height: 460px;
     
 }
-.category-menu__menu-banner {
+.best-selling-products__menu-product {
     display: flex;
     justify-content: space-between;
+    
+    height: 332px;
     width: 1171px;
-    height: 282px;
+    
 }
-.category-menu__banners {
+.best-selling-products__items {
     display: flex;
     justify-content: space-between;
     width: 870px;

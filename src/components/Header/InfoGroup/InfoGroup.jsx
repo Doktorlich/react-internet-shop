@@ -11,10 +11,10 @@ const InfoGroup = () => {
             </ul>
             <ul className="header__nav">
                 <li className="header__nav-link">
-                    <a href="/blog" className="header__link">Blog</a>
+                    <a href="/Blog" className="header__link">Blog</a>
                 </li>
                 <li className="header__nav-link">
-                    <a href="/About_Us" className="header__link">About Us</a>
+                    <a href="/AboutUs" className="header__link">About Us</a>
                 </li>
                 <li className="header__nav-link">
                     <a href="/Careers" className="header__link">Careers</a>

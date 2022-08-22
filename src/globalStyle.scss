@@ -6,15 +6,14 @@ body {
     margin-right: auto;
 }
 
-html{
-    background: #E5E5E5;;
-   
+html {
+    background: #e5e5e5;
 }
-body,footer{
+body,
+footer {
     background-color: #ffffff;
-    
 }
-.main {
+.main-home-page {
     position: relative;
 }
 
@@ -25,14 +24,15 @@ body,footer{
     height: 556px;
 
     box-sizing: border-box;
-    
+
     margin-left: auto;
     margin-right: auto;
 }
 
 .header,
 .navigation,
-.main,
+.main-home-page,
+.main-blog,
 .footer {
     padding: 0px 45px 0px 45px;
 }
@@ -41,16 +41,21 @@ a {
     text-decoration: none;
 }
 a:visited,
-a:active {
+a:active,
+a:link{
     color: rgba(106, 152, 60, 1);
 }
 a:hover {
     border-bottom: 1px rgb(180, 180, 180) solid;
-    li {
-    }
 }
 
-button:hover, input[type="button"]{
-    
+button:hover,
+input[type="button"] {
     cursor: pointer;
+}
+
+select {
+    &:hover {
+        cursor: pointer;
+    }
 }

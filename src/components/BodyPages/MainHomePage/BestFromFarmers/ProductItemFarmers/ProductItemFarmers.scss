@@ -1,4 +1,4 @@
-.product-item {
+.product-item-farmers {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -14,7 +14,7 @@
         width: 237px;
         border-radius: 12px;
         background: #f9f9f9;
-        .product-item__discount-icon {
+        .product-item-farmers__discount-icon {
             position: absolute;
             width: 54px;
             height: 18px;
@@ -30,7 +30,7 @@
             font-weight: 600;
             font-size: 12px;
             line-height: 18px;
-            .product-item__discount-number {
+            .product-item-farmers__discount-number {
                 position: absolute;
                 height: 18px;
                 width: 38px;

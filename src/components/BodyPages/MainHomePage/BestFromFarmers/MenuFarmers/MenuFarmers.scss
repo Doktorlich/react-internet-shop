@@ -1,0 +1,61 @@
+.menu-farmers {
+    display: flex;
+    flex-direction: column;
+    height: 268px;
+    height: 282px;
+    justify-content: space-between;
+
+    &__categories {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       height: 186px;
+        li:first-child {
+            //styleName: S4/Default;
+            font-family: "Poppins";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 27px;
+            margin-top: 0px;
+        }
+        li {
+        }
+    }
+    &__button-icon {
+        position: relative;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+    &__button {
+        width: 179px;
+        height: 48px;
+
+        border: none;
+
+        border-radius: 12px;
+        background: #f5f5f5;
+        //styleName: Button/Default;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 23px;
+        letter-spacing: 0em;
+        
+
+        &:hover {
+            background: #f1f1f1;
+        }
+    }
+    &__icon {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        left: 340px;
+        top: 30px;
+        background-image: url(images/icons.svg);
+        background-position: -620px -1528px;
+        zoom: 0.4;
+    }
+}

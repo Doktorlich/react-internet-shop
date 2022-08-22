@@ -1,1 +1,20 @@
-
+.best-from-farmers {
+    display: flex;
+    align-items: center;
+    height: 460px;
+    
+}
+.best-from-farmers__menu-product {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 332px;
+    width: 1171px;
+    
+}
+.best-from-farmers__items {
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    height: 280px;
+}

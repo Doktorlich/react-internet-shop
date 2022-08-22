@@ -1,13 +1,15 @@
 import React from "react";
+import BestFromFarmers from "./BestFromFarmers/BestFromFarmers";
 import BestSellingProducts from "./BestSellingProducts/BestSellingProducts";
 import CategoryMenu from "./CategoryMenu/CategoryMenu";
-import "./Main.scss";
+import "./MainHomePage.scss";
 
-const Main = () => {
-    return <main className="main">
+const MainHomePage = () => {
+    return <main className="main-home-page">
         <CategoryMenu/>
         <BestSellingProducts/>
+        <BestFromFarmers/>
     </main>;
 };
 
-export default Main;
+export default MainHomePage;

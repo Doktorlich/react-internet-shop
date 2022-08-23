@@ -1,11 +1,12 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./Basement.scss";
 
 const Basement = () => {
     return (
         <section className="header__basement section">
             <div className="header__logo">
-                <h2>Freshnececom</h2>
+                <h2><NavLink to={"/"}>Freshnececom</NavLink></h2>
             </div>
             <div className="header__form">
                 <div className="header__filter">

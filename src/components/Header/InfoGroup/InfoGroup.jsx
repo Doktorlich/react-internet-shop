@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import "./InfoGroup.scss";
 
 const InfoGroup = () => {
@@ -11,13 +12,13 @@ const InfoGroup = () => {
             </ul>
             <ul className="header__nav">
                 <li className="header__nav-link">
-                    <a href="/Blog" className="header__link">Blog</a>
+                    <NavLink to={"/Blog"} className="header__link">Blog</NavLink>
                 </li>
                 <li className="header__nav-link">
-                    <a href="/AboutUs" className="header__link">About Us</a>
+                    <NavLink to={"/AboutUs"} className="header__link">About Us</NavLink>
                 </li>
                 <li className="header__nav-link">
-                    <a href="/Careers" className="header__link">Careers</a>
+                    <NavLink to={"/Careers"} className="header__link">Careers</NavLink>
                 </li>
             </ul>
         </section>

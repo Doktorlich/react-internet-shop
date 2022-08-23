@@ -1,0 +1,45 @@
+.review {
+    position: relative;
+    margin-left: 32px;
+    
+    &:first-child {
+        margin-left: 0px;
+    }
+    border: 1px solid #f1f1f1;
+    border-radius: 12px;
+    min-width: 369px;
+    max-width: 369px;
+    height: 198px;
+    // border: 1px #f9f9f9 solid;
+
+    &__block {
+    }
+    &__comment {
+        text-align: center;
+        margin-top: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #151515;
+        line-height: 23px;
+    }
+    &__name-user {
+        text-align: center;
+        margin-top: 24px;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__photo-user {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+
+        left: 164px;
+        top: 174px;
+    }
+}

@@ -11,6 +11,7 @@
     font-size: 15px;
     line-height: 22px;
     .select {
+        display: inline;
         border: none;
         margin-right: 40px;
         // text-overflow: ellipsis;
@@ -30,34 +31,34 @@
         width: 30px;
         height: 20px;
         zoom: 0.55;
-        background-color: rgb(247, 7, 7);
+        
         
         background-image: url(images/icons.svg);
         background-position: -380px -1550px;
         background-repeat: no-repeat;
     }
     &__bakery {
-        width: 70px;
+        
     }
     &__fruit-and-vegetables {
-        width: 150px;
+        
     }
     &__meat-and-fish {
-        width: 117px;
+        
     }
     &__drinks {
-        width: 70px;
+       
     }
     &__kitchen {
-        width: 80px;
+       
     }
     &__special-nutrition {
-        width: 130px;
+       
     }
     &__baby {
-        width: 60px;
+        
     }
     &__pharmacy {
-        width: 93px;
+        
     }
 }

@@ -13,14 +13,13 @@ const SectionHeadline = () => {
                     </b>
                     <span className="section-headline__icon"></span>
                 </div>
-                
             </div>
             <div className="section-headline__component">
-                    <ItemComponent discount="" price="3.26 USD" priceDelete="" />
-                    <ItemComponent discount="" price="1.48 USD" priceDelete="" />
-                    <ItemComponent discount="- 36 %" price="0.28 USD" priceDelete="48.56" />
-                    <ItemComponent discount="" price="1.12 USD" priceDelete="" />
-                </div>
+                <ItemComponent discount="" price="3.26 USD" priceDelete="" />
+                <ItemComponent discount="" price="1.48 USD" priceDelete="" />
+                <ItemComponent discount="- 36 %" price="0.28 USD" priceDelete="48.56" />
+                <ItemComponent discount="" price="1.12 USD" priceDelete="" />
+            </div>
         </section>
     );
 };

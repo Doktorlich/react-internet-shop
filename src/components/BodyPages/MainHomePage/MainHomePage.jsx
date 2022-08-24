@@ -1,6 +1,7 @@
 import React from "react";
 import BestFromFarmers from "./BestFromFarmers/BestFromFarmers";
 import BestSellingProducts from "./BestSellingProducts/BestSellingProducts";
+import BlogPostsHomePage from "./BlogPostsHomePage/BlogPostsHomePage";
 import CategoryMenu from "./CategoryMenu/CategoryMenu";
 import "./MainHomePage.scss";
 import ReviewBlock from "./ReviewBlock/ReviewBlock";
@@ -13,6 +14,7 @@ const MainHomePage = () => {
         <BestFromFarmers/>
         <ReviewBlock/>
         <SectionHeadline/>
+        <BlogPostsHomePage/>
     </main>;
 };
 

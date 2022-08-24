@@ -1,0 +1,50 @@
+.section-headline {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 530px;
+    width: 1260px;
+    margin-left: -45px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        margin: 64px 45px 0 45px;
+    }
+    &__name-blok {
+    }
+    &__button-icon {
+        position: relative;
+    }
+    &__button {
+        width: 98px;
+        height: 35px;
+        background: #ffffff;
+        border-radius: 12px;
+        border: none;
+        &:hover {
+            border: 1px solid rgb(245, 245, 245);
+            background-color: rgb(245, 245, 245);
+        }
+    }
+    &__icon {
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        background-image: url(images/icons.svg);
+        background-position: -655px -1550px;
+        left: 195px;
+        top: 37px;
+        zoom: 0.4;
+        color: rgba(255, 255, 255, 1);
+    }
+    .section-headline__component {
+        display: flex;
+        margin-left: 45px;
+        margin-top: 32px;
+        gap: 32px;
+        height: 332px;
+        width: 1170px;
+    }
+}

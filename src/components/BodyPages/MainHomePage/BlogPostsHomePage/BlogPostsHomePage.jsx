@@ -3,6 +3,7 @@ import BlockPost from "./BlockPost/BlockPost";
 import BlockRecipes from "./BlockRecipes/BlockRecipes";
 
 import "./BlogPostsHomePage.scss";
+import GroupPost from "./GroupPost/GroupPost";
 
 const BlogPostsHomePage = () => {
     return (
@@ -18,9 +19,13 @@ const BlogPostsHomePage = () => {
             </div>
 
             <div className="blog-posts-home-page__posts">
-                <BlockRecipes/>
-                <BlockPost/>
-                <BlockRecipes/>
+                <BlockRecipes />
+                <BlockPost />
+                <div className="blog-posts-home-page__group-post">
+                    <GroupPost comment="Salat is kinda good start to your morning routines" imgPost={<img src="images/BlogImages/imagePost1.png" alt="" />} />
+                    <GroupPost comment="Our chef tips for a great and healthy breakfast" imgPost={<img src="images/BlogImages/imagePost2.png" alt="" />} />
+                    <GroupPost comment="Prepare a simple and delicious breads" imgPost={<img src="images/BlogImages/imagePost3.png" alt="" />} />
+                </div>
             </div>
         </article>
     );

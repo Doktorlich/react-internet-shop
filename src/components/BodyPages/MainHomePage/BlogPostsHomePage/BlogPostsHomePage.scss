@@ -7,7 +7,7 @@
     height: 596px;
     width: 1260px;
     margin-left: -45px;
-    border: 1px solid red;
+  
     &__header {
         display: flex;
         justify-content: space-between;
@@ -52,5 +52,12 @@
         width: 1170px;
         height: 400px;
     }
-   
+    &__group-post {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+
+        width: 369px;
+        height: 352px;
+    }
 }

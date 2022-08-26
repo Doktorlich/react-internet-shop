@@ -1,5 +1,62 @@
 .block-post {
     width: 269px;
     height: 343px;
-    border: 1px solid red;
+
+    &__img-post {
+        height: 180px;
+        width: 269px;
+
+        border-radius: 12px;
+       
+    }
+    &__description-post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 267px;
+        height: 139px;
+        margin-top: 24px;
+       
+    }
+    &__tag {
+        width: 80px;
+        height: 18px;
+        border-radius: 12px;
+        background-color: #f4f8ec;
+        color: #6a983c;
+        text-align: center;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    &__comment {
+        width: 267px;
+        height: 81px;
+        color: #151515;
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    &__author-date {
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        height: 16px;
+    }
+    &__author,
+    &__date {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+    &__author {
+    }
+    &__date {
+    }
 }

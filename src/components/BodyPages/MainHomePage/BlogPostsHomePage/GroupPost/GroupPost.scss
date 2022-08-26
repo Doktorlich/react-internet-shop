@@ -1,5 +1,44 @@
 .group-post {
-    width: 389px;
-    height: 352px;
-    border: 1px solid red;
+    width: 369px;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    &__post {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 249px;
+        height: 78px;
+        margin-top: 9.5px;
+       
+    }
+    &__comment {
+        width: 225px;
+        height: 46px;
+        color:#151515;
+        font-family: 'Poppins';
+        font-style: normal;
+        
+        font-size: 15px;
+        line-height: 22px;
+    }
+    &__author-date {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__author,
+    &__date {
+        font-family: "Open Sans";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    &__image {
+        height: 96px;
+        width: 96px;
+        
+        border-radius: 12px;
+    }
 }
